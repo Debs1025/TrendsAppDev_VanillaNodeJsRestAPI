@@ -1,4 +1,4 @@
-let products = require('../data/products')
+let products = require('../products')
 
 const { writeDataToFile } = require('../utils')
 
