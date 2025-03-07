@@ -1,4 +1,4 @@
-const Product = require('../models/productModel')
+const Product = require('../productModel')
 
 const { getPostData } = require('../utils')
 
