@@ -5,7 +5,7 @@ const {
   createProduct,
   updateProduct,
   deleteProduct,
-} = require('./controllers/productController'); 
+} = require('./productController'); 
 
 const server = http.createServer((req, res) => { 
   if (req.url === '/api/products' && req.method === 'GET') { 
